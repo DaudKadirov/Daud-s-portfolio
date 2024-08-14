@@ -1,6 +1,9 @@
 ---
-title: Welcome to Quartz
+title: Знакомство
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+![[Знакомство-20240814125741884.png|105]]
+### Мухаммад-Дауд 18 лет г. Ташкент
+
+**Junior Product Designer**
+
