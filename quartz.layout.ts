@@ -5,7 +5,28 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.Comments({
+      provider: 'giscus',
+      options: {
+        // from data-repo
+        repo: 'DaudKadirov/Daud-s-portfolio',
+        // from data-repo-id
+        repoId: 'R_kgDOMjTRVQ',
+        // from data-category
+        category: 'Announcements',
+        // from data-category-id
+        categoryId: 'DIC_kwDOMjTRVc4CiMiJ',
+        mapping: 'pathname',
+        strict: '0',
+        reactionsEnabled: '1',
+        emitMetadata: '0',
+        inputPosition: 'top',
+        theme: 'preferred_color_scheme',
+        lang: 'ru',
+      }
+    }),
+  ],
   footer: Component.Footer({
     links: {
       Telegram: "https://t.me/hevgcc",
